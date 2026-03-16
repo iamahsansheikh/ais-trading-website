@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A7A3C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2EAA57;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rounded square -->
+  <rect width="100" height="100" rx="15" fill="url(#logoGradient)"/>
+  
+  <!-- Decorative circle -->
+  <circle cx="85" cy="15" r="10" fill="rgba(255,255,255,0.15)"/>
+  
+  <!-- Tree/Timber icon -->
+  <g stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="50" y1="75" x2="50" y2="40"/>
+    <polyline points="30,60 50,40 70,60"/>
+    <polyline points="35,50 50,32 65,50"/>
+    <polyline points="40,42 50,25 60,42"/>
+  </g>
+</svg>
